@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/utils/',
+
   title: 'utils',
 
   description: 'A versatile collection of utility functions for simplifying JavaScript development.',
