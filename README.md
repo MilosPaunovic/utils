@@ -6,6 +6,10 @@
 
 A versatile collection of utility functions for simplifying JavaScript development.
 
+## ⚡️ Online Playground
+
+[Open in CodePen](https://codepen.io/milospaunovic/pen/oNRpBoz?editors=0012)
+
 ## 🚀 Features
 
 - 📝 Strings - Versatile utilities for generating and manipulating strings.
@@ -30,6 +34,9 @@ pnpm add --save-dev @paunovic/utils
 ```ts
 // Importing specific function using ESM syntax
 import { uniqueIdentifier } from '@paunovic/utils'
+
+// Importing specific function directly from the URL
+import { uniqueIdentifier } from 'https://unpkg.com/@paunovic/utils'
 
 // Importing specific function using CommonJS syntax
 const { uniqueIdentifier } = require('@paunovic/utils')
