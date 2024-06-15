@@ -47,7 +47,10 @@
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.1",
@@ -64,6 +67,7 @@
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
     "vite": "^5.3.1",
+    "vitepress": "^1.2.3",
     "vitest": "^1.6.0"
   },
   "simple-git-hooks": {
