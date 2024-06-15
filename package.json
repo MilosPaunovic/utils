@@ -1,7 +1,7 @@
 {
   "name": "@paunovic/utils",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@9.3.0",
   "description": "A versatile collection of utility functions for simplifying JavaScript development.",
   "author": "Miloš Paunovic <paun992@hotmail.com>",
