@@ -1,16 +1,32 @@
+const CHARACTERS = 'abcdefghijklmnopqrstuvwxyz0123456789'
+
 /**
- * Generate a unique identifier string
+ * Generates a unique 21-character identifier string.
  *
- * This function creates a unique identifier by combining a random letter,
- * a random hexadecimal string, and a portion of the current timestamp.
+ * @description
+ * This function generates a unique identifier consisting of:
  *
- * @returns {string} A unique identifier string
+ * - A single random lowercase letter at the beginning.
+ * - A random alphanumeric string of 12 characters.
+ * - The last 8 characters of the current timestamp in hexadecimal format.
+ *
+ * @returns {string} A unique 21-character identifier string.
  *
  * @example
- * const ID = uniqueIdentifier(); // Example output: "k4a3e8b7f21b"
+ * const ID = uniqueIdentifier(); // "k4a3e8b7f21bqwertyuio"
  */
 export function uniqueIdentifier(): string {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
-    + Math.random().toString(16).slice(2)
-    + Date.now().toString(16).slice(4)
+  // Generate the first character (must be a letter)
+  let uid = String.fromCharCode(Math.floor(Math.random() * 26) + 97)
+
+  // Generate the middle part of the UID with a combination of letters and numbers
+  for (let i = 1; i < 13; i++) {
+    const randomIndex = Math.floor(Math.random() * CHARACTERS.length)
+    uid += CHARACTERS[randomIndex]
+  }
+
+  // Append the last 8 characters of the current timestamp in hexadecimal
+  uid += Date.now().toString(16).slice(-8)
+
+  return uid
 }
