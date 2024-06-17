@@ -19,6 +19,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
+      { icon: 'npm', link: 'https://www.npmjs.com/package/@paunovic/utils' },
       { icon: 'github', link: 'https://github.com/MilosPaunovic/utils' },
     ],
 
