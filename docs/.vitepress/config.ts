@@ -1,4 +1,8 @@
+import { createRequire } from 'node:module'
 import { defineConfig } from 'vitepress'
+
+const require = createRequire(import.meta.url)
+const utils = require('../../package.json')
 
 export default defineConfig({
   base: '/utils/',
@@ -11,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/guide' },
       { text: 'Examples', items: [{ text: 'Strings', link: '/api/strings' }, { text: 'Numbers', link: '/api/numbers' }, { text: 'Various', link: '/api/various' }] },
+      { text: `v${utils.version}`, link: 'https://github.com/MilosPaunovic/utils/releases/latest' },
     ],
 
     sidebar: [
