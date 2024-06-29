@@ -1,0 +1,28 @@
+:root {
+  --vp-c-brand-1: #5672cd;
+}
+
+.home>.wrapper>.container>.title {
+  display: none;
+}
+
+.is-home {
+  .image>.image-container {
+    height: 220px;
+  }
+
+  @media (min-width: 960px) {
+    .main {
+      order: 2;
+    }
+
+    .image {
+      order: 1;
+
+      .image-container {
+        height: 100%;
+        transform: none;
+      }
+    }
+  }
+}

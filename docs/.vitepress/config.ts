@@ -7,11 +7,17 @@ const utils = require('../../package.json')
 export default defineConfig({
   base: '/utils/',
 
-  title: 'utils',
+  head: [['link', { rel: 'icon', href: '/utils/favicon.ico' }]],
+
+  title: 'utils.',
 
   description: 'A versatile collection of utility functions for simplifying JavaScript development.',
 
   themeConfig: {
+    logo: { light: '/logo/dark.png', dark: '/logo/light.png', alt: 'utils.' },
+
+    siteTitle: false,
+
     nav: [
       { text: 'Guide', link: '/guide' },
       { text: 'Examples', items: [{ text: 'Strings', link: '/api/strings' }, { text: 'Numbers', link: '/api/numbers' }, { text: 'Various', link: '/api/various' }] },

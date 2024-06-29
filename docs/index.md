@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: utils
+  image: { light: '/logo/dark.png', dark: '/logo/light.png', alt: 'utils.' }
 
   tagline: "A versatile collection of utility functions for simplifying JavaScript development."
 
