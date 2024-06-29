@@ -2,15 +2,12 @@
  * Downloads a file from the specified URL with the given filename.
  *
  * @param {string} url - The URL of the file to download.
- * @param {string} [filename] - The name to give the downloaded file.
+ * @param {string} filename - The name to give the downloaded file.
  *
  * @example
- * downloadURL('https://example.com/file.pdf', 'myfile.pdf');
- *
- * @example
- * downloadURL('https://example.com/image.png'); // Filename will be 'download'
+ * downloadURL('https://example.com/report.pdf', 'report.pdf');
  */
-export function downloadURL(url: string, filename: string = 'download'): void {
+export function downloadURL(url: string, filename: string): void {
   try {
     // Validate URL
     let validatedURL
@@ -18,7 +15,12 @@ export function downloadURL(url: string, filename: string = 'download'): void {
       validatedURL = new URL(url)
     }
     catch (_) {
-      throw new Error('Invalid URL provided')
+      throw new Error('Invalid URL provided.')
+    }
+
+    // Check if filename is provided and not empty
+    if (!filename || filename.trim() === '') {
+      throw new Error('Filename is required.')
     }
 
     // Create a temporary link element
@@ -34,10 +36,10 @@ export function downloadURL(url: string, filename: string = 'download'): void {
   }
   catch (error: unknown) {
     if (error instanceof Error) {
-      throw new TypeError(`Error downloading the file: ${error.message}`)
+      throw new TypeError(`Error downloading the file: ${error.message}.`)
     }
     else {
-      throw new TypeError('An unknown error occurred')
+      throw new TypeError('An unknown error occurred.')
     }
   }
 }
