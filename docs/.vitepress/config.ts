@@ -13,6 +13,8 @@ export default defineConfig({
 
   description: 'A versatile collection of utility functions for simplifying JavaScript development.',
 
+  appearance: 'dark',
+
   themeConfig: {
     logo: { light: '/logo/dark.png', dark: '/logo/light.png', alt: 'utils.' },
 
