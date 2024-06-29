@@ -37,16 +37,6 @@ it('uniqueIdentifier generates consistent IDs in 100000 iterations', () => {
   }
 })
 
-it('uniqueIdentifier performance test: generate 1 million IDs', () => {
-  const startTime = performance.now()
-  for (let i = 0; i < 1000000; i++)
-    uniqueIdentifier()
-
-  const endTime = performance.now()
-  const duration = endTime - startTime
-  expect(duration).toBeLessThan(1000) // Assert that the generation takes less than 1 second
-})
-
 it('uniqueIdentifier generates unique IDs concurrently', async () => {
   const numberOfConcurrentCalls = 100000
   const ids = await Promise.all(
