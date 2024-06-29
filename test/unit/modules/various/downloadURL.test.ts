@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { downloadURL } from 'src/index'
 
 const INVALID = 'invalid'
