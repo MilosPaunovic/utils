@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { downloadURL } from 'src/index'
+import { downloadURL } from '../../../../src/index'
 
 const INVALID = 'invalid'
 const VALID = 'https://example.com/report.pdf'

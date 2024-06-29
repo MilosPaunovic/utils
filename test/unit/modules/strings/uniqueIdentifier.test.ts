@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { uniqueIdentifier } from 'src/index'
+import { uniqueIdentifier } from '../../../../src/index'
 
 const PATTERN = /^[a-z][a-z0-9]{12}[0-9a-f]{8}$/
 
