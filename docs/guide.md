@@ -10,6 +10,8 @@ A versatile collection of utility functions for simplifying JavaScript developme
 
 ## ⚡️ Online Playground
 
+Explore and experiment with our code in an interactive online playground on CodePen. Click the link below to dive into the online playground environment!
+
 [Open in CodePen](https://codepen.io/milospaunovic/pen/oNRpBoz?editors=0012)
 
 ## 📦 Install

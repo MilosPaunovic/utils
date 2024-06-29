@@ -6,9 +6,13 @@
   <a href="https://www.npmjs.com/package/@paunovic/utils"><img src="https://img.shields.io/npm/v/@paunovic/utils" alt="version" /></a>
   <a href="https://www.npmjs.com/package/@paunovic/utils"><img src="https://badgen.net/npm/dm/@paunovic/utils" alt="downloads" /></a>
   <a href="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml"><img src="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml/badge.svg" alt="ci" /></a>
+
+  <a href="https://milospaunovic.github.io/utils"><h3>Official documentation</h3></a>
 </div>
 
 ## ⚡️ Online Playground
+
+Explore and experiment with our code in an interactive online playground on CodePen. Click the link below to dive into the online playground environment!
 
 [Open in CodePen](https://codepen.io/milospaunovic/pen/oNRpBoz?editors=0012)
 
