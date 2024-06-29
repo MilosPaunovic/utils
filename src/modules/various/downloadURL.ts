@@ -34,10 +34,10 @@ export function downloadURL(url: string, filename: string = 'download'): void {
   }
   catch (error: unknown) {
     if (error instanceof Error) {
-      console.error('Error downloading the file:', error.message)
+      throw new TypeError(`Error downloading the file: ${error.message}`)
     }
     else {
-      console.error('An unknown error occurred')
+      throw new TypeError('An unknown error occurred')
     }
   }
 }
