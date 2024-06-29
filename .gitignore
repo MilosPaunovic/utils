@@ -11,3 +11,7 @@ node_modules
 temp
 docs/.vitepress/dist
 docs/.vitepress/cache
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
