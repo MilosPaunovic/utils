@@ -7,7 +7,7 @@
   <a href="https://www.npmjs.com/package/@paunovic/utils"><img src="https://badgen.net/npm/dm/@paunovic/utils" alt="downloads" /></a>
   <a href="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml"><img src="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml/badge.svg" alt="ci" /></a>
 
-  <a href="https://milospaunovic.github.io/utils"><h3>Official documentation</h3></a>
+  <a href="https://milospaunovic.github.io/utils"><p>Official documentation</p></a>
 </div>
 
 ## ⚡️ Online Playground
