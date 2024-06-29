@@ -9,7 +9,7 @@ title: 'Strings'
 
 Versatile utilities for generating and manipulating strings.
 
-## uniqueIdentifier
+## uniqueIdentifier <Badge type="tip" text="^0.0.1" />
 
 Generates a unique 21-character identifier string.
 

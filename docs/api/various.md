@@ -9,7 +9,7 @@ title: 'Various'
 
 A collection of utilities for diverse purposes.
 
-## downloadURL
+## downloadURL <Badge type="tip" text="^0.0.4" />
 
 This function triggers download of a file from the specified URL with the given filename.
 
