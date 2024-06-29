@@ -29,7 +29,7 @@ This function triggers download of a file from the specified URL with the given 
 ```ts
 import { downloadURL } from '@paunovic/utils'
 
-const LINK = 'https://raw.githubusercontent.com/MilosPaunovic/utils/main/README.md'
+const URL = 'https://raw.githubusercontent.com/MilosPaunovic/utils/main/README.md'
 
-downloadURL(LINK, 'README.md')
+downloadURL(URL, 'README.md')
 ```
