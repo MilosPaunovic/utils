@@ -29,6 +29,7 @@ export default defineConfig({
     sidebar: [
       { text: 'Guide', items: [{ text: 'Getting Started', link: '/guide' }] },
       { text: 'Examples', items: [{ text: 'Strings', link: '/api/strings' }, { text: 'Numbers', link: '/api/numbers' }, { text: 'Various', link: '/api/various' }] },
+      { text: 'About', items: [{ text: 'Team', link: '/team' }] },
     ],
 
     socialLinks: [

@@ -1,4 +1,7 @@
 ---
+outline: deep
+prev: false
+next: false
 layout: home
 
 hero:

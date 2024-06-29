@@ -2,6 +2,10 @@
   --vp-c-brand-1: #5672cd;
 }
 
+.VPTeamPage {
+  margin: 0 !important;
+}
+
 .home>.wrapper>.container>.title {
   display: none;
 }
