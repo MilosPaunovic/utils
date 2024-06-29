@@ -31,11 +31,18 @@ pnpm add --save-dev @paunovic/utils
 // Importing specific function using ESM syntax
 import { uniqueIdentifier } from '@paunovic/utils'
 
-// Importing specific function directly from the URL
-import { uniqueIdentifier } from 'https://unpkg.com/@paunovic/utils'
-
 // Importing specific function using CommonJS syntax
 const { uniqueIdentifier } = require('@paunovic/utils')
+
+// Seeing the imported function in action
+const ID = uniqueIdentifier()
+```
+
+## 🌐 Browser
+
+```ts
+// Importing specific function directly from the URL
+import { uniqueIdentifier } from 'https://unpkg.com/@paunovic/utils'
 
 // Seeing the imported function in action
 const ID = uniqueIdentifier()
