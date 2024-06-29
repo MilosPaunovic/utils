@@ -1,10 +1,12 @@
-# utils
+<div align="center">
+  <a href="https://milospaunovic.github.io/utils"><img src="https://raw.githubusercontent.com/MilosPaunovic/utils/main/docs/public/logo/dark.png" alt="utils." /></a>
 
-[![NPM version](https://img.shields.io/npm/v/@paunovic/utils)](https://www.npmjs.com/package/@paunovic/utils)
-[![npm downloads](https://badgen.net/npm/dm/@paunovic/utils)](https://www.npmjs.com/package/@paunovic/utils)
-[![Continuous Integration](https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml/badge.svg)](https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml)
+  <p>A versatile collection of utility functions for simplifying JavaScript development.</p>
 
-A versatile collection of utility functions for simplifying JavaScript development.
+  <a href="https://www.npmjs.com/package/@paunovic/utils"><img src="https://img.shields.io/npm/v/@paunovic/utils" alt="version" /></a>
+  <a href="https://www.npmjs.com/package/@paunovic/utils"><img src="https://badgen.net/npm/dm/@paunovic/utils" alt="downloads" /></a>
+  <a href="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml"><img src="https://github.com/MilosPaunovic/utils/actions/workflows/ci.yml/badge.svg" alt="ci" /></a>
+</div>
 
 ## ⚡️ Online Playground
 
