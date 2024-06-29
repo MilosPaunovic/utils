@@ -2,6 +2,7 @@
 outline: deep
 prev: false
 next: false
+title: 'Various'
 ---
 
 # 🧩 Various
