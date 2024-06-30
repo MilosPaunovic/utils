@@ -1,5 +1,9 @@
 <div align="center">
-  <a href="https://milospaunovic.github.io/utils"><img src="https://raw.githubusercontent.com/MilosPaunovic/utils/main/docs/public/logo/dark.png" alt="utils." /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MilosPaunovic/utils/main/docs/public/logo/light.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MilosPaunovic/utils/main/docs/public/logo/dark.png">
+    <img alt="utils." src="https://raw.githubusercontent.com/MilosPaunovic/utils/main/docs/public/logo/dark.png">
+  </picture>
 
   <p>A versatile collection of utility functions for simplifying JavaScript development.</p>
 
