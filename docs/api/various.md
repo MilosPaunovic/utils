@@ -13,7 +13,7 @@ A collection of utilities for diverse purposes.
 
 This function triggers download of a file from the specified URL with the given filename.
 
-::: details
+::: details JSDoc
 ```ts
 /**
  * Downloads a file from the specified URL with the given filename.

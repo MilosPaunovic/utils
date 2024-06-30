@@ -13,9 +13,11 @@ Versatile utilities for generating and manipulating strings.
 
 Generates a unique 21-character identifier string.
 
-::: details
+::: details JSDoc
 ```ts
 /**
+ * Generates a unique 21-character identifier string.
+ *
  * @description
  * This function generates a unique identifier consisting of:
  *
@@ -24,6 +26,9 @@ Generates a unique 21-character identifier string.
  * - The last 8 characters of the current timestamp in hexadecimal format.
  *
  * @returns {string} A unique 21-character identifier string.
+ *
+ * @example
+ * const ID = uniqueIdentifier(); // "k4a3e8b7f21bqwertyuio"
  */
 ```
 :::
