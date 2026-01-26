@@ -62,7 +62,7 @@
     "eslint": "^9.6.0",
     "esno": "^4.7.0",
     "lint-staged": "^15.2.7",
-    "pnpm": "^9.4.0",
+    "pnpm": "^10.28.2",
     "rimraf": "^5.0.7",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.5.2",
